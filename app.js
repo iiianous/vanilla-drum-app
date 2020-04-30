@@ -6,8 +6,8 @@ const drumKit = (function() {
 
     window.addEventListener('keydown', (e) => {
         const key = e.keyCode;
-        const item = qs('div', key)
-        const audio = qs('audio', key)
+        const item = qs('div', key);
+        const audio = qs('audio', key);
 
         if (!item) return;
         item.classList.add('active');
@@ -22,4 +22,4 @@ const drumKit = (function() {
         if (!item) return;
         item.classList.remove('active');
     })
-})()
+})();
