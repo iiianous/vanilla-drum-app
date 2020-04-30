@@ -21,5 +21,5 @@ const drumKit = (function() {
 
         if (!item) return;
         item.classList.remove('active');
-    })
+    });
 })();
